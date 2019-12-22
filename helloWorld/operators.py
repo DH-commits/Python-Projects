@@ -22,4 +22,8 @@ print(animal[0:9]) #starts at index 0 and extends up to but not including 9
 print(animal[5:10]) #starts at index 5 and goes to up to but not including index position 10
 print(animal[:10]) #didnt provide a start value but defaults to 0th index
 
+computerParts = ['monitor', 'harddrive', 'mouse'];
+print(computerParts[1]) # prints harddrive
+print(computerParts[1][2]) # prints the second index of the first index in the array. so letter r of hardware
 
+#range is an example of a sequence that cant be multiplied
